@@ -1,0 +1,39 @@
+input:
+    intype1:
+        mat: loop.xls
+
+    intype2:
+        mat:   
+    intype3:
+        cutoff: 0
+        mat:  
+    out: ALL.loop.venn
+plot:
+    width: 5
+    height: 5
+
+set: 
+    cex: 1.5    
+    fontface: bold 
+    set_color: black
+
+intersect: 
+    fill:  Set3 
+    alpha:  0.8  
+    label: counts 
+    cex: 1.5  
+    fontface: bold  
+    col: 'black'
+
+    lwd: 1 
+    lty: solid 
+    border_col: follow_fill
+
+
+
+
+
+
+     
+    
+
